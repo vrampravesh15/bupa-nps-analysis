@@ -32,7 +32,7 @@ Bupa needed a clear and structured way to analyze customer feedback so the busin
 - `data/BUPA-Analysis.xlsx` – Main source dataset.
 - `documents/Business-Requirements-Document-BRD-Bupa-NPS-Analysis.pdf` – Project requirements and business context.
 - `documents/BUPA-Project-Analysis.pdf` – Final analysis and dashboard summary.
-- `screenshots/` – Dashboard preview images.
+- `assets/` – Dashboard preview images.
 
 ## Key Insights
 - The overall NPS score is -44.60.

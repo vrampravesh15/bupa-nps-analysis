@@ -1,63 +1,89 @@
 # Bupa NPS Analysis
 
-## Project Overview
-This project analyzes Bupa customer feedback and Net Promoter Score (NPS) performance to identify dissatisfaction drivers, customer segment trends, and opportunities to improve customer experience.
+## Overview
+This project presents a Bupa Net Promoter Score (NPS) analysis built to understand customer feedback, identify dissatisfaction themes, and evaluate performance across key segments. It helps transform raw customer responses into clear business insights for better decision-making.
 
-## Business Problem
-The analysis identified an overall NPS score of -44.60, driven by a high volume of detractors and recurring issues related to claims handling, response time, and service experience.
+## Problem Statement
+Bupa needed a clear and structured way to analyze customer feedback so the business could understand NPS performance, recurring service issues, and improvement opportunities. This project addresses that need by turning survey responses and verbatim comments into a business-focused analysis.
 
 ## Objectives
-- Analyze NPS by product line, policy tenure, and claim status.
-- Identify customer dissatisfaction themes from verbatim comments.
-- Highlight poor-performing segments that require action.
-- Support business decisions with insight-driven recommendations.
-
-## Dataset
-The project uses customer-level feedback data from the Excel source file, including:
-- Member ID
-- Creation Date
-- Response Date
-- Policy Tenure Years
-- Claimed / Not Claimed
-- Product Line Name
-- Renewal Date
-- Recommendation Rating
-- Bupa NPS Verbatim
+- Analyze customer NPS data visually and clearly.
+- Identify key dissatisfaction themes from verbatim feedback.
+- Compare performance across product line, tenure band, and claimed status.
+- Summarize important business metrics for reporting.
+- Support better customer experience decisions with actionable insights.
 
 ## Tools Used
-- Excel
-- Dashboard Reporting
-- Business Analysis Documentation
+- Microsoft Excel
+- PDF documentation
+- Dashboard visualization
+- Business analysis reporting
+
+## Dashboard Features
+- Overall NPS score view.
+- Promoter, passive, and detractor breakdown.
+- Product-wise analysis.
+- Tenure-based analysis.
+- Claimed vs not claimed comparison.
+- Verbatim theme analysis.
+- Clear visual reporting workflow.
+
+## Files Included
+- `data/BUPA-Analysis.xlsx` – Main source dataset.
+- `documents/Business-Requirements-Document-BRD-Bupa-NPS-Analysis.pdf` – Project requirements and business context.
+- `documents/BUPA-Project-Analysis.pdf` – Final analysis and dashboard summary.
+- `screenshots/` – Dashboard preview images.
 
 ## Key Insights
-- Overall NPS Score: -44.60
-- Promoters: 189
-- Passives: 176
-- Detractors: 635
-- Claimed customers performed worse than not claimed customers.
-- Major dissatisfaction themes included slow response time, price increase, loyalty discount needed, and service issues.
+- The overall NPS score is -44.60.
+- Detractors are significantly higher than promoters.
+- Claimed customers show weaker NPS performance than not claimed customers.
+- Major dissatisfaction themes include slow response time, price increase, and loyalty discount concerns.
+- Visual analysis makes it easier to understand customer sentiment at a glance.
+
+## Recommendations
+- Improve response time in customer service and claims journeys.
+- Focus on reducing detractor volume through targeted actions.
+- Monitor claimed customer segments more closely.
+- Track dissatisfaction themes and assign ownership for resolution.
+- Expand reporting with more trend-based analysis over time.
 
 ## Repository Structure
 ```text
 bupa-nps-analysis/
-│── README.md
-│── data/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── data/
 │   └── BUPA-Analysis.xlsx
-│── documents/
+├── documents/
 │   ├── Business-Requirements-Document-BRD-Bupa-NPS-Analysis.pdf
 │   └── BUPA-Project-Analysis.pdf
-│── images/
+├── assets/
 │   ├── dashboard-overview.png
 │   ├── nps-by-product-line.png
 │   ├── nps-by-tenure-band.png
 │   └── nps-by-verbatim.png
 ```
 
-## Recommendations
-- Improve response times in customer service and claims journeys.
-- Monitor low-performing customer segments more closely.
-- Address pricing and value-for-money concerns.
-- Track dissatisfaction themes and assign action owners for service recovery.
+## How to Use
+1. Open the Excel file to review the source data.
+2. Read the BRD to understand the business problem and scope.
+3. Review the project analysis PDF for the final insights.
+4. Check the screenshots for a quick visual preview of the dashboard.
 
-## Business Value
-This project demonstrates how customer feedback and NPS analysis can be used to identify service gaps, support better decision-making, and improve customer experience outcomes.
+## Project Outcome
+This project demonstrates skills in data analysis, dashboard design, reporting, and business analysis. It shows how customer feedback can be converted into meaningful insights that support business improvement.
+
+## Future Improvements
+- Add time-based trend analysis.
+- Include deeper segmentation across customer groups.
+- Improve dashboard interactivity.
+- Expand the analysis with more customer experience measures.
+
+## Screenshots
+![Dashboard Overview](assets/dashboard.png)
+
+![NPS by Composition](assets/nps-composition.png)
+
+![NPS by Verbatim](assets/nps-by-verbatim.png)
